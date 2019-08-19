@@ -55,3 +55,8 @@ double psudoRand(int key, int octaves)
     }
     return sum / octaves;
 }
+
+ERL_STATUS perlinNoise(double *heightmap, int x, int y, double scale, int octaves, int keyOverride)
+{
+
+}
